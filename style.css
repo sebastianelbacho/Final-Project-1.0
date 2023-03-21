@@ -34,10 +34,11 @@ body.fade-out {
 h1 {
     text-transform: uppercase;
     /*capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima;
+    font-family: 'Roboto', sans-serif;
     /* Sets the font family of all h1 headings */
     text-align: center;
     /* Centering all h1 elements */
+    
     margin-top: 3%;
     /* Adds a small margin above h1 elements */
     color: #1a1a1a;
@@ -51,7 +52,7 @@ h1:hover {
     /* Adds a slightly gray filter to the h1 headings when hovered over */
     transform: scale(1.1);
     /* When the h1 elements are hovered over they increase in size by 1.1 */
-    transition: transform 0.5s;
+    transition: transform 0.3s;
     /* This causes the transformation to last 1 second */
 
 
@@ -67,7 +68,7 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: arial, Rockwell Extra Bold;
     text-align: justify;
     /* This justifies the text within paragraph elements */
     letter-spacing: .1vw;
@@ -83,9 +84,9 @@ p {
 
 /* Paragraph element hover effect */
 p:hover {
-    transition: transform 1s;
+    transition: transform 2s;
     /* This makes the transform effect last 1 second */
-    transform: scale(1.01);
+    transform: scale(0.9);
     /* This makes the paragraphs increase slightly in size when hovered over */
 }
 
@@ -93,6 +94,7 @@ p:hover {
 .center {
     text-align: center;
     /* This center aligns the text */
+    font-size: 1em;
 }
 
 /* Center align elements hover effect - This only affects the quote, github link, and footer */
@@ -504,7 +506,9 @@ footer {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: #4d4d4d;
+    /* background-color: #4d4d4d; */
+    /* background-color: rgb(119,108,141); */
+    opacity: 1;
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
